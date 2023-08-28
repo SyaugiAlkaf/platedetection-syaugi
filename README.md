@@ -35,15 +35,15 @@ This repository contains code for a license plate detection project. The project
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/SyaugiAlkaf/supermario-syaugi.git
-    cd supermario-syaugi
+    git clone https://github.com/SyaugiAlkaf/platedetection-syaugi.git
+    cd platedetection-syaugi
     ```
 
 2. **Install the required dependencies using `pip` & Run the main training script:**
 
     ```bash
     pip install ultralytics opencv-python-headless sort easyocr
-    python supermario.py
+    python main.py
     ```
 
 3. **Observe the training progress and the rewards plot that visualizes the agent's learning.**

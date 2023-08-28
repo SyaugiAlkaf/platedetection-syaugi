@@ -39,14 +39,21 @@ This repository contains code for a license plate detection project. The project
     cd platedetection-syaugi
     ```
 
-2. **Install the required dependencies using `pip` & Run the main training script:**
+2. **Install the required dependencies using `pip`:**
 
     ```bash
     pip install ultralytics opencv-python-headless sort easyocr
+    ```
+3. **Provide the path to your video source by changing the line in main.py:**
+   
+   ```bash
+    cap = cv2.VideoCapture('./sample.mp4')  # Replace with your own video path
+    ```
+4. **Run the main training script:**
+   
+   ```bash
     python main.py
     ```
-
-3. **Observe the training progress and the rewards plot that visualizes the agent's learning.**
 
 ## Note
 

@@ -1,0 +1,7 @@
+path: C:/Users/saugi/Documents/randomProjects/platedetection/data
+train: licensePlateDataset/train
+val: licensePlateDataset/valid
+
+#Classes
+names:
+  0: licensePlate

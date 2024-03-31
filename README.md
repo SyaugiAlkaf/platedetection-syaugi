@@ -2,6 +2,8 @@
 
 This repository contains code for a license plate detection project. The project utilizes object detection models to identify vehicles and their corresponding license plates in video footage. The code is written in Python and employs various computer vision techniques and libraries.
 
+![License Plate Detection](image_url_here)
+
 ## Technologies Used
 
 - [ultralytics YOLO](https://github.com/ultralytics/yolov5): A popular object detection framework used for detecting vehicles and license plates in video frames.
